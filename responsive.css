@@ -1,0 +1,96 @@
+/* For Mobile devices */
+@media only screen and (max-width: 600px) {
+  li.nav-item.signin {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  li.nav-item.login {
+    text-align: center;
+  }
+  .content_btn a.btn1 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 13px;
+  }
+  .content_btn a.btn2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 13px;
+  }
+  .form_element select {
+    width: 100%;
+  }
+  .item_left p {
+    width: 100%;
+    margin-top: 7px;
+  }
+  .content_right_btn {
+    margin-bottom: 25px;
+  }
+  .group span {
+    font-weight: 600;
+  }
+  .footer_right p {
+    margin-top: 20px;
+  }
+  .footer_right ul li {
+    margin-right: 32px;
+  }
+  .f_logo {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .fb_menu {
+    margin-top: 24px;
+    text-align: center;
+  }
+  .fb_menu a {
+    margin-right: 31px;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .footer_right ul {
+    text-align: center;
+  }
+}
+
+/* For Tablets */
+@media only screen and (601px <= width <= 768px) {
+  li.nav-item.signin {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  li.nav-item.login {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .form_element select {
+    width: 75%;
+  }
+  .content_right_btn {
+    margin-bottom: 30px;
+  }
+  .group span {
+    font-weight: 600;
+  }
+  .fb_menu {
+    margin-top: 24px;
+    text-align: center;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .f_logo {
+    text-align: center;
+  }
+  .footer_right {
+    text-align: center;
+    margin-top: 50px;
+  }
+  .col-lg-3.lists {
+    width: 25%;
+  }
+}
